@@ -1,0 +1,79 @@
+div {
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  margin: 10px auto;
+  width: 800px;
+  max-width: 100%;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.dataContainer {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  background: #ffffff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header h1 { 
+  font-size: 48px;
+  font-weight: 600;  
+}
+
+.bio {
+  text-align: center;
+  color: #dde5ed;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 20px;
+}
+
+.postButton {
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 16px;
+  background: #003057;
+  width: 250px;
+  margin: 16px auto;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;  
+}
+
+.postButton:hover {
+  background: #00C389;
+}
+
+.connectButton {
+  background: #003057;
+  color: white;
+  font-size: 18px;
+  font: IBMPlexSans-Regular;
+  transition-duration: 0.4s;
+}
+
+.connectButton:hover {
+  background: #00C389;
+}
+
+p.error-message {
+  color: red;
+}
+
+.post-loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #64acff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  margin: 50px auto;
+}

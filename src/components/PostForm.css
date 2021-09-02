@@ -1,0 +1,126 @@
+.form-container {
+    color: white;
+    max-width: 100%;
+    width: 500px;
+    border: 1px solid #8193b2;
+    margin: 30px auto;
+    text-align: center;
+    padding: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 8px;
+    background: inherit;
+    border: 1px solid #8193b2;
+    border-radius: 2px;
+    color: white;
+}
+
+textarea {
+    height: 80px;
+}
+
+select {
+    width: 200px;
+    padding: 5px;
+    background: inherit;
+    border: 1px solid #8193b2;
+    border-radius: 2px;
+    color: white;
+}
+
+.form-control {
+    margin: 15px auto;
+}
+
+select:focus, input:focus, textarea:focus {
+    border: 1px solid white;
+    outline: none;
+}
+
+.form-container div.button-container {
+    margin: 0 auto;
+    margin-bottom: 15px; 
+    max-width: 100%;
+}
+
+.form-container button {
+    display: inline-block;
+    margin: 10px 5px;
+    width: 150px;
+    max-width: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);   
+}
+
+.button-container button.cancelBtn {
+    background: -webkit-linear-gradient(-70deg, #ff7170 0%, #ffe57f 100%);
+}
+
+.post-submission {
+    max-width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.mining {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mining span, .mining div {
+    display: inline-block;
+}
+
+.mining span {
+    color: #FBD34D;
+}
+
+.success, .mining {
+    margin-bottom: 20px;
+}
+
+.success button {
+    display: inline-block;
+    margin: 5px auto;
+    text-align: center;
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);   
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.success p {
+    color: #34D399;
+}
+
+.error p {
+    color: red;
+}
+
+.loader {
+    border: 5px solid #f3f3f3; /* Light grey */
+    border-top: 5px solid #FBD34D; /* Yellow */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    margin: 0px 15px;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

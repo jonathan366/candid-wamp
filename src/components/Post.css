@@ -1,0 +1,18 @@
+.ind-post {
+    margin: 35px 0px;
+    border-bottom: 1px solid #8193b2;
+    padding: 15px;
+}
+
+.ind-post a {
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ip-description {
+    color: #8193b2;
+    font-size: 18px;
+    line-height: 24px;
+}

@@ -1,0 +1,31 @@
+.postlist-container {
+    border: 1px solid #8193b2;
+    width: 100%;
+    margin: 10px auto;
+    color: white;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.pl-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pl-header h2 {
+    margin: 0;
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pl-header option, .pl-header select {
+    color: #8193b2;
+}
+
+.pl-category {
+    width: 150px;
+    padding: 5px;
+}
